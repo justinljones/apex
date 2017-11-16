@@ -12,5 +12,4 @@
 /composer.phar
 /app/logs
 /var/*
-/web/app_dev.php
 composer.lock
