@@ -8,7 +8,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="tasks_user")
+ * @ORM\Table(name="user")
  * @UniqueEntity(fields="email", message="Email already taken")
  * @UniqueEntity(fields="username", message="Username already taken")
  */
@@ -37,17 +37,4 @@ class User extends BaseUser
         return $this;
     }
     
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="facebook_id", type="string", nullable=true)
-     */
-    private $facebookID;
- 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="google_id", type="string", nullable=true)
-     */
-    private $googleID;
 }
