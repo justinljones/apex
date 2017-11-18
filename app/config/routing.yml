@@ -6,6 +6,6 @@ fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
     
 #Remove after initial register Justin
-fos_user_register:
-    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
-    prefix: /register
+#fos_user_register:
+    #resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    #prefix: /register
